@@ -1,0 +1,6 @@
+query blog($id: Int!){
+    blog(id: $id) {
+        name,
+        blogImg
+    }
+}
